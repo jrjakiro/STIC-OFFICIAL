@@ -9,7 +9,7 @@
     height: 100%;
     width: 100%;
     -webkit-animation: rotateHue infinite 20s linear;
-            animation: rotateHue infinite 20s linear;
+            animation: rotateHue infinite 0s linear;
     -webkit-animation-delay: 0.625s;
             animation-delay: 0.625s;
   }
@@ -70,8 +70,7 @@
     100% {
       filter: hue-rotate(360deg);
     }
-  }
-  .untitled__shutters   {
+  }  .untitled__shutters   {
     position: absolute;
     height: 75vmax;
     width: 150vmax;
@@ -204,7 +203,7 @@
     width: 100%;
     top: 0;
     left: 0;
-    background-color:blue;
+    background-color:white;
   }
   .untitled__slide {
     position: absolute;
@@ -253,28 +252,28 @@
             animation-delay: 0s;
   }
   .untitled__slide:nth-child(1) .untitled__slideBg {
-    background-image: url(https://images.unsplash.com/photo-1589828994379-7a8869c4f519?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5ub3ZhdGlvbnxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+    background-image: url(../images/bg2.webp);
   }
   .untitled__slide:nth-child(2) {
     -webkit-animation-delay: 5s;
             animation-delay: 5s;
   }
   .untitled__slide:nth-child(2) .untitled__slideBg {
-    background-image: url(https://images.unsplash.com/photo-1496065187959-7f07b8353c55?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aW5ub3ZhdGlvbnxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+    background-image: url(../images/bg1.webp);
   }
   .untitled__slide:nth-child(3) {
     -webkit-animation-delay: 10s;
             animation-delay: 10s;
   }
   .untitled__slide:nth-child(3) .untitled__slideBg {
-    background-image: url(https://images.unsplash.com/photo-1598520106830-8c45c2035460?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fGlubm92YXRpb258ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+    background-image: url(../images/bg3.webp);
   }
   .untitled__slide:nth-child(4) {
     -webkit-animation-delay: 15s;
             animation-delay: 15s;
   }
   .untitled__slide:nth-child(4) .untitled__slideBg {
-    background-image: url(https://images.unsplash.com/photo-1590098563831-d28f8c52726b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njh8fGlubm92YXRpb258ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60);
+    background-image: url(../images/bg4.webp);
   }
   .untitled__slideBg {
     position: relative;
@@ -284,8 +283,6 @@
     left: 0;
     background-size: cover;
     background-position: center;
-    background-color: #b3401a;
-    background-blend-mode: hard-light;
     opacity: 1;
     z-index: -1;
     -webkit-animation: bgInOut 5s infinite;
