@@ -1,11 +1,3 @@
-html {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizelegibility;
-  font-feature-settings: "liga", "kern";
-  font-family: "Montserrat", "HelveticaNeueLTStd", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  line-height: 1.5;
-}
 
 .fadein {
   opacity: 0;
@@ -665,31 +657,6 @@ html:not(.touchevents) .gallery-caption:empty {
   display: grid;
   grid-template-rows: flow;
   grid-auto-flow: dense;
-}
-@media (max-width: 639px) {
-  .gallery {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (min-width: 640px) and (max-width: 1019px) {
-  .gallery {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-@media (1260px-px: 1020px) {
-  .gallery {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-@media (min-width: 1260px) and (max-width: 1599px) {
-  .gallery {
-    grid-template-columns: repeat(5, 1fr);
-  }
-}
-@media (min-width: 1600px) {
-  .gallery {
-    grid-template-columns: repeat(6, 1fr);
-  }
 }
 
 .gallery-item {
