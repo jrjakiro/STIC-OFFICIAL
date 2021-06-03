@@ -628,7 +628,7 @@ footer p {
 	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
 	margin-bottom: 50px;
 }
-.card{
+.card_about{
 		border-radius: 2px;
 		display: inline-block;
 		height: auto;
@@ -640,12 +640,12 @@ footer p {
 		margin: 10px;
 
 }
-.card:hover {
+.card_about:hover {
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   }
-.card1{
+.card_about1{
 	background:gainsboro;
 }
-.card2{
+.card_about2{
 	background:white;
 }
