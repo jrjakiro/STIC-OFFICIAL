@@ -629,8 +629,9 @@ footer p {
 	margin-bottom: 50px;
 }
 .card_about{
+		align-content: space-between;
 		border-radius: 2px;
-		display: inline-block;
+		display: block;
 		height: auto;
 		padding: 20px;
 		position: relative;
@@ -647,5 +648,6 @@ footer p {
 	background:gainsboro;
 }
 .card_about2{
+	height: 300px;
 	background:white;
 }
