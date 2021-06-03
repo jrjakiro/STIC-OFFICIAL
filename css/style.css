@@ -553,7 +553,7 @@ footer p {
 .card_about{
 		align-content: space-between;
 		border-radius: 2px;
-		display: block;
+		display: inline-block;
 		height: auto;
 		padding: 20px;
 		position: relative;
@@ -570,6 +570,6 @@ footer p {
 	background:gainsboro;
 }
 .card_about2{
-	height: 300px;
+	min-height: 300px;
 	background:white;
 }
