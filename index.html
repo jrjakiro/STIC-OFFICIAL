@@ -7,16 +7,16 @@
   <meta name="author" content="Jayachandran Ramadoss">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>
-    STIC  | Let we Transform
+    STIC | Let we Transform
   </title>
-<!--favicon-->
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
+  <!--favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
   <!--css-->
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.8/typicons.min.css'>
@@ -43,7 +43,6 @@
         <div class="mobile-toggle"> <span></span> <span></span> <span></span> </div>
         <nav>
           <ul>
-            <li><a class="image logo"><img src="images/sairamlogo.png"></a></li>
             <li><a class="smoothscroll" href="#header"><span>Home</span></a></li>
             <li><a class="smoothscroll" href="#about"><span>About</span></a></li>
             <li><a class="smoothscroll" href="#team"><span>Team</span></a></li>
@@ -56,104 +55,111 @@
     </div>
     </div>
     <!-- partial:index.partial.html -->
-    <div class="app">
+    <div class="row">
+      <img src="images/sticlogo.png" class="logo" style="z-index: 10;">
+      <img src="images/sairamlogo.png" class="logo" style="z-index: 10;margin-left: 750px;">
+    
+      <div class="app" >
 
-      <div class="cardList">
-        <button class="cardList__btn btn btn--left">
-          <div class="icon">
+        <div class="cardList">
+          <button class="cardList__btn btn btn--left">
+            <div class="icon">
               <span class="typcn typcn-arrow-left icon"></span>
-          </div>
-        </button>
+            </div>
+          </button>
 
-        <div class="cards__wrapper">
-          <div class="card current--card">
-            <div class="card__image">
-              <img
-                src="https://images.unsplash.com/photo-1507668077129-56e32842fceb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aWRlYXN8ZW58MHwxfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
-                alt="" />
+
+          <div class="cards__wrapper">
+            <div class="card current--card">
+              <div class="card__image">
+                <img
+                  src="https://images.unsplash.com/photo-1507668077129-56e32842fceb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aWRlYXN8ZW58MHwxfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
+                  alt="" />
+              </div>
+            </div>
+
+            <div class="card next--card">
+              <div class="card__image">
+                <img
+                  src="https://images.unsplash.com/photo-1618389041494-8fab89c3f22b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGNvZGluZ3xlbnwwfDF8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
+                  alt="" />
+              </div>
+            </div>
+
+            <div class="card previous--card">
+              <div class="card__image">
+                <img
+                  src="https://images.unsplash.com/photo-1593376893114-1aed528d80cf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHRlY2hub2xvZ3l8ZW58MHwxfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
+                  alt="" />
+              </div>
             </div>
           </div>
 
-          <div class="card next--card">
-            <div class="card__image">
-              <img
-                src="https://images.unsplash.com/photo-1618389041494-8fab89c3f22b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGNvZGluZ3xlbnwwfDF8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
-                alt="" />
-            </div>
-          </div>
-
-          <div class="card previous--card">
-            <div class="card__image">
-              <img
-                src="https://images.unsplash.com/photo-1593376893114-1aed528d80cf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHRlY2hub2xvZ3l8ZW58MHwxfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
-                alt="" />
-            </div>
-          </div>
-        </div>
-
-        <button class="cardList__btn btn btn--right">
-          <div class="icon">
+          <button class="cardList__btn btn btn--right">
+            <div class="icon">
               <span class="typcn typcn-arrow-right icon"></span>
-          </div>
-        </button>
-      </div>
+            </div>
+          </button>
+        </div>
 
-      <div class="infoList">
-        <div class="info__wrapper">
-          <div class="info current--info">
-            <h1 class="text name">STIC</h1>
-            <h4 class="text location"></h4>
-            <p class="text description">Experience the Innovation</p>
-          </div>
+        <div class="infoList">
+          <div class="info__wrapper">
+            <div class="info current--info">
+              <h1 class="text name">STIC</h1>
+              <h4 class="text location"></h4>
+              <p class="text description">Experience the Innovation</p>
+            </div>
 
-          <div class="info next--info">
-            <h1 class="text name">STIC</h1>
-            <h4 class="text location"></h4>
-            <p class="text description">Experience the Implementation</p>
-          </div>
+            <div class="info next--info">
+              <h1 class="text name">STIC</h1>
+              <h4 class="text location"></h4>
+              <p class="text description">Experience the Implementation</p>
+            </div>
 
-          <div class="info previous--info">
-            <h1 class="text name">STIC</h1>
-            <h4 class="text location"></h4>
-            <p class="text description">Experience the Transformation</p>
+            <div class="info previous--info">
+              <h1 class="text name">STIC</h1>
+              <h4 class="text location"></h4>
+              <p class="text description">Experience the Transformation</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="app__bg">
+          <div class="app__bg__image current--image">
+            <img src="https://source.unsplash.com/Z8dtTatMVMw" alt="" />
+          </div>
+          <div class="app__bg__image next--image">
+            <img src="https://source.unsplash.com/9dmycbFE7mQ" alt="" />
+          </div>
+          <div class="app__bg__image previous--image">
+            <img src="https://source.unsplash.com/m7K4KzL5aQ8" alt="" />
           </div>
         </div>
       </div>
 
-
-      <div class="app__bg">
-        <div class="app__bg__image current--image">
-          <img src="https://source.unsplash.com/Z8dtTatMVMw" alt="" />
-        </div>
-        <div class="app__bg__image next--image">
-          <img src="https://source.unsplash.com/9dmycbFE7mQ" alt="" />
-        </div>
-        <div class="app__bg__image previous--image">
-          <img src="https://source.unsplash.com/m7K4KzL5aQ8" alt="" />
+      <div class="loading__wrapper">
+        <div class="loader--text">Loading...</div>
+        <div class="loader">
+          <span></span>
         </div>
       </div>
-    </div>
 
-  <div class="loading__wrapper">
-	<div class="loader--text">Loading...</div>
-	<div class="loader">
-		<span></span>
-	</div>
-</div>
+      <div class="support">
+        <a href="https://twitter.com/DevLoop01" target="_blank"><i class="fab fa-twitter-square"></i></a>
+        <a href="https://dribbble.com/devloop01" target="_blank"><i class="fab fa-dribbble"></i></a>
+      </div>
+      <!-- partial -->
+      <a class="smoothscroll" href="#about">
+        <div class="scroll-down"></div>
+      </a>
+    </div>
+  </div>
+</header>
 
-    <div class="support">
-      <a href="https://twitter.com/DevLoop01" target="_blank"><i class="fab fa-twitter-square"></i></a>
-      <a href="https://dribbble.com/devloop01" target="_blank"><i class="fab fa-dribbble"></i></a>
-    </div>
-    <!-- partial -->
-    <a class="smoothscroll" href="#about">
-      <div class="scroll-down"></div>
-    </a>
-    </div>
-  </header>
 
   <!-- About Section–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
+<h1><br></h1>
   <section id="about">
     <div class="container">
       <div class="row">
@@ -166,12 +172,12 @@
             <h3><span class="typcn typcn-anchor icon"></span>Who We Are</h3>
             <p>
               A team of Engineers & Professionals joined to support SaiRam Students, Selective alumni and Venture to
-              craft
-              their quest towards Entrepreneurship by providing an Innovative Ecosystem. This indeed will develop them
+              craft their quest towards Entrepreneurship by providing an Innovative Ecosystem. This indeed will develop
+              them
               <strong> into Complete Engineers and Responsible Entrepreneurs.</strong> So, join us to learn, explore,
-              and
-              expand a community of <strong> entrepreneurs, problem solvers, and Remarkable leaders.</strong> we will
-              support you get there further, faster.
+              and expand a community of <strong> entrepreneurs, problem solvers, and Remarkable leaders.</strong> we
+              will support you
+              get there further, faster.
             </p>
           </div>
         </center>
@@ -194,10 +200,9 @@
             <p style="text-align:justify;">
               We strongly believe ideas can change the world.<strong> An agile Process, lighting fast Execution &
                 real-world Feedbacks are very important to bring Ideas into Reality.</strong> With the combination of
-              our
-              highly established system and with the help of the right brains, your ideas can terraform the community
-              you
-              liked to serve.<strong> We believe, that you will discover value with us for things you never thought
+              our highly established system and with the help of the right brains, your ideas can terraform the
+              community you liked to serve.<strong> We believe, that you will discover value with us for things you
+                never thought
                 of.</strong>
             </p>
           </div>
@@ -331,8 +336,7 @@
             <div class="face face2">
               <div class="content">
                 <p>STIC Venture Entrepreneurship Program For Sairam Faculties & Other Upcoming Entrepreneurs outside
-                  Sairam
-                  working on high-potential Products & Services.
+                  Sairam working on high-potential Products & Services.
               </div>
             </div>
           </div>
@@ -394,7 +398,8 @@
               </a>
             </li>
           </ul>
-        </div> <!-- / row -->
+        </div>
+        <!-- / row -->
 
         <!-- Item 01 -->
         <div id="item01" class="port">
@@ -403,32 +408,34 @@
             <div class="description">
               <h1>Autonomous Vehicle</h1>
               <p>An autonomous vehicle, or a driverless vehicle, is one that is able to operate itself and perform
-                necessary functions without any human intervention, through ability to sense its surroundings.
-                An autonomous vehicle utilises a fully automated driving system in order to allow the vehicle to respond
-                to external conditions that a human driver would manage.</p>
+                necessary functions without any human intervention, through ability to sense its surroundings. An
+                autonomous vehicle utilises
+                a fully automated driving system in order to allow the vehicle to respond to external conditions that a
+                human driver would manage.</p>
             </div>
             <img
               src="https://images.unsplash.com/photo-1586038119444-4b22a8575e08?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGNhciUyMHNlbnNvcnN8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
               alt="">
           </div>
-        </div> <!-- / row -->
+        </div>
+        <!-- / row -->
         <!-- Item 02 -->
         <div id="item02" class="port">
           <div class="row">
             <div class="description">
               <h1>Automated Incubator with IOT Control</h1>
               <p>An incubator is a device simulating avian incubation by keeping eggs warm at a particular temperature
-                range
-                and in the correct humidity with a turning mechanism to hatch them.
-                The common names of the incubator in other terms include breeding / hatching machines or hatchers,
-                setters,
-                and egg breeding / equipment</p>
+                range and in the correct humidity with a turning mechanism to hatch them. The common names of the
+                incubator in other terms
+                include breeding / hatching machines or hatchers, setters, and egg breeding / equipment</p>
             </div>
             <img
               src="https://images.unsplash.com/photo-1569504275728-9350b4c55fee?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGluY3ViYXRvcnxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
               alt="">
-          </div> <!-- / row -->
-        </div> <!-- / Item 02 -->
+          </div>
+          <!-- / row -->
+        </div>
+        <!-- / Item 02 -->
         <!-- Item 03 -->
         <div id="item03" class="port">
           <div class="row">
@@ -436,13 +443,16 @@
               <h1>Automated Surveilance Drone</h1>
               <p>Some drones are controlled manually through hand-held devices. These usually have a video camera
                 attached to them, not just for surveillance, but for the operator to view through the camera to control
-                the drone. ... Civil agencies often use drones to survey land and monitor animal populations.</p>
+                the drone. ... Civil agencies
+                often use drones to survey land and monitor animal populations.</p>
             </div>
             <img
               src="https://images.unsplash.com/photo-1507724571015-2a7d95884528?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGRyb25lfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=900&q=60"
               alt="">
-          </div> <!-- / row -->
-        </div> <!-- / Item 03 -->
+          </div>
+          <!-- / row -->
+        </div>
+        <!-- / Item 03 -->
         <!-- Item 04 -->
         <div id="item04" class="port">
           <div class="row">
@@ -450,13 +460,16 @@
               <h1>Pond Water Filter</h1>
               <p>Discard the water and debris. Allow the pond water to flow into the filter and clear wells, then add
                 0.2 pounds of chlorine per 100 gallons of water to "shock chlorinate." After a period of 4 to 6 hours,
-                prime the clear well pump and completely fill the pressure tank with the chlorine water.</p>
+                prime the clear well
+                pump and completely fill the pressure tank with the chlorine water.</p>
             </div>
             <img
               src="https://images.unsplash.com/photo-1543467091-354f7d517bd0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTEyfHx3YXRlcnxlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
               alt="">
-          </div> <!-- / row -->
-        </div> <!-- / Item 04 -->
+          </div>
+          <!-- / row -->
+        </div>
+        <!-- / Item 04 -->
         <!-- Item 05 -->
         <div id="item05" class="port">
           <div class="row">
@@ -464,14 +477,17 @@
               <h1>Smart Clock</h1>
               <p>With a screen that's smaller than most smartphones, the Smart Clock is a full-featured, great-sounding
                 Google Assistant-powered smart speaker with just enough display to comfortably view photos, videos, and,
-                of course, the time, which should make it the perfect mix of sight and sound. ... It can't display
-                videos.</p>
+                of course, the
+                time, which should make it the perfect mix of sight and sound. ... It can't display videos.
+              </p>
             </div>
             <img
               src="https://images.unsplash.com/photo-1505471310026-0071c89ddac5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZGlnaXRhbCUyMGNsb2NrfGVufDB8MHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
               alt="">
-          </div> <!-- / row -->
-        </div> <!-- / Item 05 -->
+          </div>
+          <!-- / row -->
+        </div>
+        <!-- / Item 05 -->
         <!-- Item 02 -->
       </div>
   </div>
@@ -2144,14 +2160,12 @@
       <div class="container">
         <div class="quoteLoop">
           <blockquote class="quote"> <img src="images/stevejobs.webp" class="quote-pic" alt="" />
-            <h5>&nbsp;<br>
-              &rdquo;Make your time as Oppurtunity and seconds into Moments&rdquo;<br>
+            <h5>&nbsp;<br> &rdquo;Make your time as Oppurtunity and seconds into Moments&rdquo;<br>
               <small>Steve jobs,Founder of Apple</small>
             </h5>
           </blockquote>
           <blockquote class="quote"> <img src="images/karlmarx.webp" class="quote-pic" alt="" />
-            <h5>&nbsp;<br>
-              &ldquo;Time is Just an element created by watch Mechanics, Work for your success&rdquo;<br>
+            <h5>&nbsp;<br> &ldquo;Time is Just an element created by watch Mechanics, Work for your success&rdquo;<br>
               <small>Karl Marx, World's Great Philosopher</small>
             </h5>
           </blockquote>
@@ -2199,12 +2213,16 @@
     <div class="container">
       <div class="nine columns">
         <p>Designed and Developed By<br> <strong>Jayachandran Ramadoss & Team</strong><br>Electronics and Communication
-          Dept,<br>Sri Sairam Engineering College - Chennai</p>
+          Dept,
+          <br>Sri Sairam Engineering College - Chennai
+        </p>
       </div>
-      <div class="three columns"><a href="mailto:e8ec088@sairamtap.edu.in?subject = Feedback&body = Message"></href>
+      <div class="three columns">
+        <a href="mailto:e8ec088@sairamtap.edu.in?subject = Feedback&body = Message"></href>
           <span class="typcn typcn-social-google-plus-circular socialIcons"></span></a><a
           href="https://www.linkedin.com/in/jayachandran-ramadoss-80345a18a/"><span
-            class="typcn typcn-social-linkedin-circular socialIcons"></span></a> </div>
+            class="typcn typcn-social-linkedin-circular socialIcons"></span></a>
+      </div>
     </div>
   </footer>
 
