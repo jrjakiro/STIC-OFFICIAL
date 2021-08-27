@@ -25,6 +25,7 @@
 .gallery ul li {
   float: left;
   margin: 0 0.8771929825%;
+  margin-right: 40px;
   overflow: hidden;
 }
 
@@ -160,6 +161,6 @@
   transition: all 0.3s ease-in-out;
 }
 .project_image{
-  width: 300px;
-  min-height: 180px;
+  width: 400px;
+  min-height: 200px;
 }
