@@ -1,6 +1,6 @@
 #services{
-    margin-top: 200px;
-    margin-bottom: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .container .scard{
     position: relative;
@@ -85,4 +85,10 @@
 .container .scard .face.face2 .content a:hover{
     background: #333;
     color: #fff;
+}
+.hint
+{
+    text-align: center;
+    text-decoration: double;
+    color: #ff0057;
 }
