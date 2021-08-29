@@ -109,6 +109,8 @@
 }
 .port img {
   width: 50%;
+  max-width: 400px;
+  max-height: 300px;
 }
 .port .description {
   float: left;
